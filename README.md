@@ -1,0 +1,2 @@
+# MyLogger
+Python用のLoggerです
