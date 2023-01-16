@@ -12,8 +12,8 @@ class MyLogger:
         :param logger_name: name of this logger
         :param is_print_log: output to command line
         """
-        self.loggerName = logger_name
-        self.printFlag = is_print_log
+        self.loggerName: str = logger_name
+        self.printFlag: bool = is_print_log
         self.filePathList: list[Path] = []
 
     def addLogFilePath(self, path: Path) -> None:
